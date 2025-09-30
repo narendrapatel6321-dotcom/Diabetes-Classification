@@ -22,7 +22,7 @@ The project follows these key steps:
 
 ### Machine Learning Model
 - **Library**: scikit-learn
-- **Algorithms Used**: Logistic Regression, Decision Trees, Random Forests (or any chosen algorithms based on your project)
+- **Algorithms Used**: Logistic Regression, Decision Trees, Random Forests 
 - **Input Features**: The following fields are taken from the user:
   - Number of Pregnancies
   - Insulin Level
