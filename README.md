@@ -34,8 +34,6 @@ The project follows these key steps:
   - Diabetes Pedigree Function
 - **Output**: The model predicts whether the person is likely to have diabetes (Yes/No).
 
-## How to Use
-
 ### Prerequisites
 - Python 3.x
 - scikit-learn
