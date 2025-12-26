@@ -2,7 +2,7 @@
 
 > An end-to-end machine learning project that predicts **diabetes risk**, **diabetes presence**, and **diabetes type** using a **multi-stage modeling pipeline**, robust preprocessing, and hyperparameter optimization.
 
- **Live App (Streamlit)**: *[Deployment link coming soon]*
+ **Live App (Streamlit)**: *https://diabetes-prediction-system-6321.streamlit.app/*
 
 ---
 
@@ -93,7 +93,7 @@ The final trained pipelines are integrated into a **Streamlit web application** 
   - Diabetes presence
   - Diabetes type
 
- **Streamlit App**: *[Link will be added after deployment]*
+ **Streamlit App**: *https://diabetes-prediction-system-6321.streamlit.app/*
 
 ---
 
