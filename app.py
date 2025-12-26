@@ -54,7 +54,7 @@ col1, col2 = st.columns(2)
 
 with col1:
     age = st.number_input(
-        "Age", 18, 100, 35,
+        "Age", 18, 100, 40,
         help="Enter age in completed years (18–100)."
     )
 with col2:
@@ -99,14 +99,14 @@ with col7:
     )
 with col8:
     alcohol_consumption_per_week = st.number_input(
-        "Alcohol Consumption / Week", 0, 10, 0,
+        "Alcohol Consumption / Week", 0, 21, 0,
         help="Number of alcoholic drinks per week."
     )
 
 col9,col10 = st.columns(2)
 with col9:
     physical_activity_minutes_per_week = st.number_input(
-        "Physical Activity (min/week)", 0, 800, 0,
+        "Physical Activity (min/week)", 0, 900, 0,
         help="Total minutes of physical activity per week."
     )
 
@@ -119,7 +119,7 @@ with col10:
 col11, col12 = st.columns(2)
 with col11:
     sleep_hours_per_day = st.number_input(
-        "Sleep Hours / Day", 0, 12, 7,
+        "Sleep Hours / Day", 3, 12, 7,
         help="Average hours of sleep per night."
     )
 with col12:
@@ -148,19 +148,19 @@ with col15:
     )
 with col16:
     bmi = st.number_input(
-        "BMI", 10.0, 60.0, 25.0,
+        "BMI", 15.0, 60.0, 25.0,
         help="Body Mass Index."
     )
 
 col17, col18 = st.columns(2)
 with col17:
     waist_to_hip_ratio = st.number_input(
-        "Waist-to-Hip Ratio", 0.5, 1.5, 0.9,
+        "Waist-to-Hip Ratio", 0.6, 1.4, 0.9,
         help="Indicator of fat distribution."
     )
 with col18:
     heart_rate = st.number_input(
-        "Heart Rate", 40, 150, 70,
+        "Heart Rate", 40, 130, 70,
         help="Resting heart rate (bpm)."
     )
 
@@ -172,7 +172,7 @@ with col19:
     )
 with col20:
     diastolic_bp = st.number_input(
-        "Diastolic BP", 60, 130, 80,
+        "Diastolic BP", 50, 130, 80,
         help="Lower blood pressure value."
     )
 
